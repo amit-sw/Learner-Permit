@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Learner_Permit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueBackground" translatesAutoresizingMaskIntoConstraints="NO" id="52x-Te-Rhs">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mona Lisa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgO-0C-EpN">
+                                <rect key="frame" x="0.0" y="806" width="414" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="250" image="monaLisa" translatesAutoresizingMaskIntoConstraints="NO" id="Mxf-wi-rPQ">
+                                <rect key="frame" x="0.0" y="107" width="414" height="679"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learner Permit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Yi-ay-MfS">
+                                <rect key="frame" x="20" y="44" width="374" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Mxf-wi-rPQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="0zG-7d-fvp"/>
+                            <constraint firstItem="7Yi-ay-MfS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="1Ud-6o-f3b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hgO-0C-EpN" secondAttribute="trailing" id="3mR-nA-jey"/>
+                            <constraint firstItem="hgO-0C-EpN" firstAttribute="top" secondItem="Mxf-wi-rPQ" secondAttribute="bottom" constant="20" id="Ac8-kO-WbP"/>
+                            <constraint firstItem="52x-Te-Rhs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="E8M-jg-Buw"/>
+                            <constraint firstItem="hgO-0C-EpN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Glg-PK-HRg"/>
+                            <constraint firstItem="Mxf-wi-rPQ" firstAttribute="top" secondItem="7Yi-ay-MfS" secondAttribute="bottom" constant="20" id="KKw-zN-WPW"/>
+                            <constraint firstAttribute="bottom" secondItem="52x-Te-Rhs" secondAttribute="bottom" id="NrV-eM-TLO"/>
+                            <constraint firstItem="hgO-0C-EpN" firstAttribute="top" secondItem="Mxf-wi-rPQ" secondAttribute="bottom" constant="20" id="ROp-4Z-Ptk"/>
+                            <constraint firstItem="52x-Te-Rhs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cXi-3r-qxQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hgO-0C-EpN" secondAttribute="bottom" constant="20" id="iPO-hO-Qhk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7Yi-ay-MfS" secondAttribute="trailing" id="kCH-rq-3Mw"/>
+                            <constraint firstItem="52x-Te-Rhs" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="owA-Cs-5vl"/>
+                            <constraint firstItem="7Yi-ay-MfS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pSo-bA-tKe"/>
+                            <constraint firstItem="Mxf-wi-rPQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sYL-Cf-M8Q"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="123" y="98"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blueBackground" width="576" height="768"/>
+        <image name="monaLisa" width="150" height="223.5"/>
+    </resources>
+</document>
